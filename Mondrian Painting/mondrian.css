@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./background\ image.jpg);
+}
+.red{
+    background-color: #ff0000;
+}
+.yellow{
+    background-color: #ffff00;
+}
+.grey{
+    background-color: #808080;
+}
+.white{
+    background-color: #ffffff;
+}
+.green{
+    background-color: #008000;
+}
+.pink{
+    background-color: #fcb0cb;
+}
+.purple{
+    background-color: #800080;
+}
+.orange{
+    background-color: #ffa500;
+}
+.blue{
+    background-color: #0000ff;
+}
+
+
+.grid-container{
+    width: 300px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    border: 5px solid #000;
+    background-color: #000;
+    gap: 5px 10px;
+    
+}
+.box-1{
+    grid-area: 1/1/3/2;
+}
+.box-2{
+    grid-area: 1/2/3/5;
+}
+.box-3{
+    grid-column: span 2;
+}
+.box-4{
+    grid-area: 3/1/4/4;
+}
+.box-5{
+    grid-area: 3/4/5/5;
+}
+.box-6{
+    grid-area: 2/5/4/7;
+}
+.box-7{
+    grid-area: 4/5/5/7;
+}
+.box-8{
+    grid-area: 4/1/6/4;
+}
+.box-9{
+    grid-area: 5/4/6/7;
+}
+.box-11{
+    grid-area: 6/2/7/7;
+}
+.box-13{
+    grid-area: 7/2/8/5;
+}
+.box-14{
+    grid-column: span 2;
+}
+.box-15{
+    grid-column: span 2;
+}
+.box-17{
+    grid-column: span 2;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
